@@ -6401,7 +6401,7 @@ a
 end
 
 -- Automatically Select Autoload Config on Dropdown
-print(self:GetAutoloadConfig())
+print(SaveManager:GetAutoloadConfig())
 
 
 return Library, SaveManager
