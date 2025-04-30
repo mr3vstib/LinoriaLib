@@ -6401,7 +6401,8 @@ a
 end
 
 -- Automatically Select Autoload Config on Dropdown
-if SaveManager:GetAutoloadConfig() ~= "none" then
+print(self:GetAutoloadConfig())
+if self:GetAutoloadConfig() ~= "none" then
     self.Library.Options.SaveManager_ConfigList:SetValue(SaveManager:GetAutoloadConfig())
 end
 
