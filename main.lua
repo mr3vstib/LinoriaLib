@@ -6248,7 +6248,7 @@ local SaveManager = {} do
             name = tostring(name)
             return if name == "" then "none" else name
         end
-a
+
         return "none"
     end
 
@@ -6399,7 +6399,5 @@ a
 
     SaveManager:BuildFolderTree()
 end
-
--- Automatically Select Autoload Config on Dropdown
 
 return Library, SaveManager
